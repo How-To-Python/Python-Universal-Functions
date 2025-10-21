@@ -1,6 +1,6 @@
 # 🐦‍🔥 `__init__.py` file 
 
-#### 🤨 What is `__init__.py`?
+### 🤨 What is `__init__.py`?
 - The `__init__.py` file marks a folder as a package
 - Without `__init__.py`, `example_custom_lib` is just a folder not a package
 - It's the "front door" to your package that controls what happens when someone imports it.
@@ -18,7 +18,7 @@
 - see example file [`example__init__.py`](./example_custom_lib/example__init__.py)
 
 
-###### 🔑 Key Benefits of `__init__.py`:
+### 🔑 Key Benefits of `__init__.py`:
 1. Professional Package Structure: Standard Python packaging
 2. Clean User Experience: Simple imports for users
 3. Flexible Organization: Change internal structure without breaking user code

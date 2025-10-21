@@ -5,9 +5,9 @@
 
 ### 👀 Where Does The `__pycache__` Folder Come From?
 **`__pycache__` is automatically created by Python when you:**
-- Import a module for the first time
-- Run a Python script that imports other modules
-- Execute any Python code that loads `.py` files
+1. **Module Import**: When you `import` or `from module import` for the first time
+2. **Package Loading**: When loading packages with `__init__.py`, execute any Python code that loads `.py` files
+3. **Script Execution**: When Python files import other Python files, run a Python script that imports other modules
 
 ### 🗃️ What's Inside `__pycache__`?
 ```
@@ -41,10 +41,6 @@ from my_module import my_function  # Loads pre-compiled bytecode
 - **Without cache**: Python reads `.py` → parses → compiles → executes
 - **With cache**: Python reads `.pyc` → executes (skips parsing/compiling)
 
-### When Are `.pyc` Files Created?
-1. **Module Import**: When you `import` or `from module import`
-2. **Package Loading**: When loading packages with `__init__.py`
-3. **Script Execution**: When Python files import other Python files
 
 ### When Are `.pyc` Files Updated?
 Python automatically updates `.pyc` files when:

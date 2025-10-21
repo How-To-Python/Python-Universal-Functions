@@ -26,13 +26,13 @@ YourCustomLibrary/
 - This **`setup.py`** transforms your simple Python files into a professional, installable package that can be used across all your projects
 - see example file [`example_setup.py`](./example-setup.py)
 
-#### 🗝️ Key Benefits of `setup.py`:
-1. Professional Structure: Standard Python packaging
-2. Easy Distribution: Can upload to PyPI later
-3. Dependency Management: Handles required packages
-4. Version Control: Tracks package versions
-5. Cross-Platform: Works on Windows, macOS, Linux
-6. IDE Integration: Better autocomplete and error checking
+    #### 🗝️ Key Benefits of `setup.py`:
+    1. Professional Structure: Standard Python packaging
+    2. Easy Distribution: Can upload to PyPI later
+    3. Dependency Management: Handles required packages
+    4. Version Control: Tracks package versions
+    5. Cross-Platform: Works on Windows, macOS, Linux
+    6. IDE Integration: Better autocomplete and error checking
 ----------
 
 ### 3️⃣ Install in development mode
@@ -41,28 +41,32 @@ YourCustomLibrary/
 - **`-e`:** "Editable/Development" mode, so changes to your code are immediately available
 - Links to your source directory instead of copying files, perfect for development
 - **During Installation:**
+
     **1. Package Registration:** Python knows about `my-package-name`(this is the name you gave in the `setup()` function in the `setup.py` file)
+
     **2. Import Path:** example_custom_lib becomes importable everywhere
+
     **3. Dependency Resolution:** Installs any required packages
+
     **4. Console Scripts:** Creates any command-line tools
 - **Usage After Installation:** `from example_custom_lib import function_1, function2 etc....`
 ----------
 
 ##### 📁 `.egg-info` folder
 
-###### What is the `.egg-info` folder?
-**The `.egg-info` folder is is metadata storage created by Python's packaging tools. Python's way of saying `This package is officially installed and ready to use!` It's the bridge between your source code and Python's import system.**
+###### ❓ What is the `.egg-info` folder?
+**The `.egg-info` folder is is metadata storage created by Python's packaging tools. Python's way of saying `This package is officially installed and ready to use` It's the bridge between your source code and Python's import system.**
 
-###### Where Does The `.egg-info` Folder Come From?
+###### 💭 Where Does The `.egg-info` Folder Come From?
 - automatically created by Python's packaging system when you run `pip install -e .`
 **Learn More About [`__init__.py`](./UnderstandingFilesandFolders/understanding__init__.py.md)**
 ----------
 ##### 📁 `__pycache__` Folder
 
-###### What is `__pycache__`?
+###### ⁉️ What is `__pycache__`?
 **The `__pycache__` folder is Python's `compiled bytecode cache` that stores pre-compiled versions of your Python files for faster execution.**
 
-###### Where Does The `__pycache__` Folder Come From?
+###### 💭 Where Does The `__pycache__` Folder Come From?
 **`__pycache__` is automatically created by Python when you:**
 - Import a module for the first time
 - Run a Python script that imports other modules

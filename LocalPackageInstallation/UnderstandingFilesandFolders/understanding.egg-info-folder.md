@@ -1,9 +1,9 @@
 # 📁 `.egg-info` folder
 
 ### 🤨 What is the `.egg-info` folder?
-**The `.egg-info` folder is essentially Python's way of saying `This package is officially installed and ready to use!` It's the bridge between your source code and Python's import system.**
+**The `.egg-info` folder is essentially Python's way of saying `This package is officially installed and ready to use` It's the bridge between your source code and Python's import system.**
 
-###### 👀 Where Does The `.egg-info` Folder Come From?
+### 👀 Where Does The `.egg-info` Folder Come From?
 - automatically created by Python's packaging system when you run
     - **`pip install -e .`** (Development installation)
     - **`pip install .`** (Regular installation)
@@ -76,7 +76,7 @@
 
 
 
-##### Should You Keep `.egg-info`?
+### Should You Keep `.egg-info`?
 **✅ Keep it if:**
 - You want the package to remain installed
 - You're actively developing the package
@@ -86,7 +86,8 @@
 - You're moving the directory
 - You want to start fresh
 - `pip uninstall example_custom_lib` removes the .egg-info directory and uninstalls the package
-###### 🔀 What If Changes Are Made To The Package?
+
+### 🔀 What If Changes Are Made To The Package?
 - Reinstall after major changes
     - `pip uninstall example_custom_lib`
     - `pip install -e .`
