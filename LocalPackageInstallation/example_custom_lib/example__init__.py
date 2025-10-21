@@ -4,7 +4,7 @@
     # Shows up in help(): When someone types help(example_custom_lib)
     # Professional appearance: Makes your package look polished
 """
-Shannon's Python Utilities
+Python Utilities
 ==========================
 
 A collection of useful utility functions for Python projects.
@@ -73,7 +73,7 @@ Initialization Code: Code that runs when the package is first imported
     - Avoid heavy computations: Keep it light to prevent slow imports
 '''
 # Example initialization code, not needed
-# print("Shannon's utils loaded!")
+# print("Package loaded!")
 
 # # Setup code
 # import os
