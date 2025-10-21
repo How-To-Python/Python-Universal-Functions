@@ -16,15 +16,15 @@ Package Metadata
         - find_packages(): Automatically scans directory for __init__.py files to identify packages
                     ├── setup.py
                     ├── README.md
-                    ├── your_custom_lib/
+                    ├── example_custom_lib/
                     │   ├── __init__.py
                     │   ├── filename.py
                     │   ├── utilities.py
                     │   └── helpers.py
                     └── tests/
                         └── test_functions.py
-        - this will find your_custom_lib as a package
-        - Alternative: packages=['shannon_utils'] (manual specification), but find_packages() is more flexible because it auto-detects packages and sub-packages
+        - this will find example_custom_lib as a package
+        - Alternative: packages=['example_custom_lib'] (manual specification), but find_packages() is more flexible because it auto-detects packages and sub-packages
     - python_requires: Minimum Python version required
         - Prevents installation on incompatible Python versions
         - This package works on Python 3.6 and newer
@@ -32,7 +32,7 @@ Package Metadata
         - Example: install_requires=['requests', 'numpy>=1.20.0', 'pandas' etc...]
         - leave empty if your functions don't need external libraries
     - entry_points: Define command-line scripts if needed
-        - Example: 'command-name=your_custom_lib.filename:function_name'
+        - Example: 'command-name=example_custom_lib.filename:function_name'
             - creates a terminal command 'command-name' that runs function_name() from filename.py
     - classifiers: Metadata for package indexing (e.g., PyPI)
     - long_description: Detailed description of your package (supports Markdown)
