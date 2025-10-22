@@ -10,8 +10,8 @@
 5. Symbolic Links
 
 #### 1️⃣ [LOCAL PACKAGE INSTALLATION (RECOMMENDED)](./LocalPackageInstallation/README.md)
-- Install your package in "editable" mode using `pip install -e .
--Best for active development, testing, and professional projects`
+- Install your package in "editable" mode using ``pip install -e .`
+- Best for active development, testing, and professional projects`
 
 #### 2️⃣ [PYTHONPATH Environment Variable](./PythonPathEnvironmentVariable/README.md)
 - Add your function directory to the system's PYTHONPATH
