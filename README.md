@@ -10,12 +10,18 @@
 5. Symbolic Links
 
 #### 1️⃣ [LOCAL PACKAGE INSTALLATION (RECOMMENDED)](./LocalPackageInstallation/README.md)
+- Install your package in "editable" mode using `pip install -e .
+-Best for active development, testing, and professional projects`
 
 #### 2️⃣ [PYTHONPATH Environment Variable]()
+- Add your function directory to the system's PYTHONPATH
 
 #### 3️⃣ [Site-packages Installation]()
+- Copy files directly to Python's site-packages directory
 
 #### 4️⃣ [Virtual Environment Setup]()
+- Install in specific virtual environments as needed
 
-#### 5️⃣ [Virtual Environment Setup]()
+#### 5️⃣ [Symbolic Links]()
+- Create symbolic links to your function files in site-packages
 

@@ -1,4 +1,26 @@
 # ✨ LOCAL PACKAGE INSTALLATION (RECOMMENDED)
+**Install your package in "editable" mode using `pip install -e .` It will create a .egg-link file in site-packages that points to your development directory. The package will appear in pip list as if normally installed and changes to your code are immediately available without reinstalling. Best for active development, testing, and professional projects.**
+
+#### Advantages
+✅ **Development-friendly:** Edit code and see changes immediately
+
+✅ **Professional:** Uses standard Python packaging tools
+
+✅ **Reversible:** Easy to uninstall with pip uninstall
+
+✅ **Version control:** Tracks installation in requirements.txt
+
+✅ **Cross-platform:** Works on Windows, Mac, Linux
+
+
+#### Disadvantages
+❌ Requires proper package structure (setup.py, init.py)
+
+❌ Per-environment installation needed
+
+-------
+## How To Create a Local Package Insatllation
+
 
 ### 1️⃣ Create a proper package structure
 
