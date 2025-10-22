@@ -1,9 +1,8 @@
 # ⚡ Python Universal Functions
 **This guide demonstrates multiple methods to make custom Python functions available in all your Python projects**
 
-**Purpose:** Make Python Functions Available Across All Projects(any Python script on your system)
-
-### ✨ Methods Covered
+## 📋 Project Overview
+**Demonstrates how to make python functions available across all projects(any Python script on your system) using the following methods**
 1. Local Package Installation (Recommended)
 2. PYTHONPATH Environment Variable
 3. Site-packages Installation
