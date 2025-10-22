@@ -23,6 +23,8 @@
             sys.path.append(r'C:\path\to\your\directory')
             from example_custom_lib import function_1, function_2
         ```
+
+        
 ### 🗃️ What's Inside `.egg-info`? 
 
     ```

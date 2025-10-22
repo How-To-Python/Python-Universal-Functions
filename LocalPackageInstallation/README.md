@@ -26,13 +26,13 @@ YourCustomLibrary/
 - This **`setup.py`** transforms your simple Python files into a professional, installable package that can be used across all your projects
 - see example file [`example_setup.py`](./example-setup.py)
 
-    #### 🗝️ Key Benefits of `setup.py`:
-    1. Professional Structure: Standard Python packaging
-    2. Easy Distribution: Can upload to PyPI later
-    3. Dependency Management: Handles required packages
-    4. Version Control: Tracks package versions
-    5. Cross-Platform: Works on Windows, macOS, Linux
-    6. IDE Integration: Better autocomplete and error checking
+#### 🗝️ Key Benefits of `setup.py`:
+1. Professional Structure: Standard Python packaging
+2. Easy Distribution: Can upload to PyPI later
+3. Dependency Management: Handles required packages
+4. Version Control: Tracks package versions
+5. Cross-Platform: Works on Windows, macOS, Linux
+6. IDE Integration: Better autocomplete and error checking
 ----------
 
 ### 3️⃣ Install in development mode
