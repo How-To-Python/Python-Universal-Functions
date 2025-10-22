@@ -13,7 +13,7 @@
 - Install your package in "editable" mode using `pip install -e .
 -Best for active development, testing, and professional projects`
 
-#### 2️⃣ [PYTHONPATH Environment Variable](./PythonPathEnvironmentVariable/README.md) hello
+#### 2️⃣ [PYTHONPATH Environment Variable](./PythonPathEnvironmentVariable/README.md)
 - Add your function directory to the system's PYTHONPATH
 
 #### 3️⃣ [Site-packages Installation](./SitePackageInstallation/README.md)
